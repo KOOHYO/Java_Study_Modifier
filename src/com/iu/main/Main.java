@@ -3,6 +3,7 @@ package com.iu.main;
 import com.iu.terran.Marine;
 import com.iu.terran.Scv;
 import com.iu.unit.Unit;
+import com.iu.zarg.Hydra;
 
 public class Main {
 
@@ -15,6 +16,10 @@ public class Main {
 		//Scv    is a Unit
 		
 		Unit unit = m1;//자식클래스에서 부모클래스에 대입
+		Hydra hydra = new Hydra();
+		
+		m1.attack();
+		hydra.attack();
 		
 		
 		

@@ -2,9 +2,10 @@ package com.iu.terran;
 
 
 
+import com.iu.unit.Attacker;
 import com.iu.unit.Unit;//import는 여기에 Unit이라는 클래스가 있다고 얘기해주는것
 
-public class Marine extends Unit { //패키지명을 클래스명 앞에 써줘야한다
+public class Marine extends Unit implements Attacker{ //패키지명을 클래스명 앞에 써줘야한다
 
 	
 	
@@ -27,6 +28,11 @@ public class Marine extends Unit { //패키지명을 클래스명 앞에 써줘�
 	public void move() {
 		System.out.println("뛰어다님");
 	}
+	
+	public void attack() {
+		this.attack();
+	}
+	
 	//여기서 이것은 오버라이딩이다 (Unit으로 상속받았는데 중복이아니라 오버라이딩이다)
 	public void info() {
 		super.info();//부모영역의 주소! 여기서 본인영역의 주소인 this.()도 쓸 수 있다

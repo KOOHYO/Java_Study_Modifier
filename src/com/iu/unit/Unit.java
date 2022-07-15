@@ -15,6 +15,9 @@ public abstract class Unit { // abstract 은 추상적이다 상속해서만 쓸
 	//
 	public abstract void move();//abstract 완성되지 않은 메서드이다. 쓸려면 완성 시킨 후 써야한다.
 	
+	//오버라이딩
+	//public abstract void attack();
+	
 	public void info() {
 		System.out.println("Super Info");
 	}
