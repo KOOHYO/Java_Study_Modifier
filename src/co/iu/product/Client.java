@@ -34,10 +34,10 @@ public class Client {
 		
 	}
 	
-	public void buy(Phone phone) {
+	public void buy(Product product) {
 		
-		this.money = this.money-phone.getPrice();
-		this.point = this.point+phone.getPrice();
+		this.money = this.money-product.getPrice();
+		this.point = this.point+product.getPrice();
 		
 		System.out.println("잔액 : "+this.money);
 		System.out.println("Point : "+this.point);
