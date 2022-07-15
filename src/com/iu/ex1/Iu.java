@@ -4,6 +4,8 @@ public class Iu {
 
 	private String name;
 	private int age;
+	//fix-study(깃허브 백업 테스트)
+	private String test;
 	
 	private static Iu iu=null;
 	
