@@ -1,6 +1,8 @@
 package com.iu.util;
 
-public class CollectionStack {
+import java.util.AbstractCollection;
+
+public class CollectionStack extends Collection {
 
 	//1. com.iu.util.CollectionStack
 	// add 메서드 - 입력받은 숫자를 추가 새로운 숫자 추가 무조건 0번에 추가
