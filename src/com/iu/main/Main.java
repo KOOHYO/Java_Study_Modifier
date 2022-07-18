@@ -10,6 +10,9 @@ public class Main {
 		//test data set
 		int [] nums = {1,2,3};
 		Scanner scanner = new Scanner(System.in);
+		String name = "test";
+		char ch = name.charAt(4);
+		System.out.println(ch);
 		
 
 		//1. com.iu.util.CollectionStack
