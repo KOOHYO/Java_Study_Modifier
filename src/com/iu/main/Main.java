@@ -18,7 +18,7 @@ public class Main {
 		phone.info();
 		
 		Client client = new Client();
-		client.buy(tv);
+		client.buy(phone);
 		
 	}
 }
