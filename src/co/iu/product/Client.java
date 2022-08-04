@@ -15,8 +15,9 @@ public class Client {
 	}
 	
 	public void buy(Tv tv) {
-		
+		//3천만-100만원
 		this.money = this.money-tv.getPrice();
+		//10+100
 		this.point = this.point+tv.getPrice();
 		
 		System.out.println("잔액 : "+this.money);
